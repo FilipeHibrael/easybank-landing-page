@@ -1,0 +1,38 @@
+.reasons-bg {
+    background: var(--n-light-grayish-blue);
+}
+
+.reasons {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.reasons h2 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: var(--p-dark-blue);
+    margin-bottom: 32px;
+}
+
+.reasons > p {
+    max-width: 60ch;
+    margin-bottom: 60px;
+}
+
+.reasons-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.reasons-item span {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.reasons-item h3 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: var(--p-dark-blue);
+    margin-bottom: 32px;
+}

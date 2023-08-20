@@ -1,5 +1,6 @@
 .introducao-bg{
-    background: url('../images/bg-intro-desktop.svg') no-repeat;
+    background: var(--n-very-light-gray)
+    url('../images/bg-intro-desktop.svg') no-repeat;
     background-size: cover;
     background-position-x: 44vw;
     background-position-y: -300px;
@@ -10,11 +11,11 @@
 }
 
 .introducao-content {
-    margin: 12.4vw 0;
+    margin: 12vw 0;
 }
 
 .introducao-content h1{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 3rem;
     color: var(--p-dark-blue);
     max-width: 16ch;
@@ -27,7 +28,7 @@
 }
 
 .introducao-mockup {
-    max-width: 50vw;
+    max-width: 52vw;
     position: absolute;
     top:85px;
     right: -100px;
