@@ -1,0 +1,39 @@
+.introducao-bg{
+    background: url('../images/bg-intro-desktop.svg') no-repeat;
+    background-size: cover;
+    background-position-x: 44vw;
+    background-position-y: -300px;
+}
+
+.introducao {
+    overflow: hidden;
+}
+
+.introducao-content {
+    margin: 12.4vw 0;
+}
+
+.introducao-content h1{
+    font-weight: 300;
+    font-size: 3rem;
+    color: var(--p-dark-blue);
+    max-width: 16ch;
+    margin-bottom: 32px;
+}
+
+.introducao-content p{
+    max-width: 42ch;
+    margin-bottom: 24px;
+}
+
+.introducao-mockup {
+    max-width: 50vw;
+    position: absolute;
+    top:85px;
+    right: -100px;
+    overflow: hidden
+}
+
+.introducao-mockup img {
+   transform: translateY(-80px);
+}
