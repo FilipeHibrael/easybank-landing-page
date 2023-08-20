@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 28px;
+}
+
+.header-menu a {
+    display: inline-block;
+    padding: 12px 0;
+    position: relative;
+}
+
+.header-menu a::after {
+    content: "";
+    background: linear-gradient(var(--p-lime-green), var(--p-bright-cyan));
+    height: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    transition:0.12s;
+}
+
+.header-menu a:hover::after {
+    height: 4px;
+}
+
+.header-menu a:hover {
+    color: var(--p-dark-blue);
+}

@@ -1,0 +1,21 @@
+.container {
+    max-width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--n-white);
+    background: linear-gradient(90deg, var(--p-lime-green), var(--p-bright-cyan));
+    padding: 12px 24px;
+    border-radius: 50px;
+    transition: opacity 0.12s;
+}
+
+.botao:hover {
+    opacity: 0.6;
+}
