@@ -1,0 +1,74 @@
+.footer-bg {
+    background: var(--p-dark-blue);
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 3fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "logo links-col1 links-col2 button"
+    "social links-col1 links-col2 copyright"
+    ;
+    gap: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-logo {
+    grid-area: logo;
+}
+
+.footer-social {
+    display: flex;
+    align-self: end;
+    gap: 14px;
+    grid-area: social;
+}
+
+.footer-social a svg path {
+    transition: fill 0.16s;
+}
+
+.footer-social a:hover svg path {
+    fill: var(--p-lime-green);
+}
+
+.footer-links-col1 {
+    grid-area: links-col1;
+}
+
+.footer-links-col2 {
+    grid-area: links-col2;
+}
+
+.footer-links-col1,
+.footer-links-col2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 16px;
+    color: var(--n-very-light-gray);
+}
+
+.footer-links-col1 a,
+.footer-links-col2 a {
+    transition: color 0.16s;
+}
+
+.footer-links-col1 a:hover,
+.footer-links-col2 a:hover {
+    color: var(--p-lime-green);
+}
+
+.footer-button {
+    justify-self: end;
+    grid-area: button;
+}
+
+.footer-copyright {
+    justify-self: end;
+    align-self: end;
+    grid-area: copyright;
+}

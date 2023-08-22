@@ -14,7 +14,7 @@
     background: linear-gradient(90deg, var(--p-lime-green), var(--p-bright-cyan));
     padding: 12px 24px;
     border-radius: 50px;
-    transition: opacity 0.12s;
+    transition: opacity 0.16s;
 }
 
 .botao:hover {
