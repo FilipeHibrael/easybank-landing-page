@@ -36,3 +36,49 @@
     color: var(--p-dark-blue);
     margin-bottom: 32px;
 }
+
+@media (max-width: 980px) {
+    .reasons {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .reasons-items {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px;
+    }
+}
+
+@media (max-width: 480px) {
+    .reasons-items {
+        grid-template-columns: 1fr;
+    }
+
+    .reasons {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .reasons h2 {
+        font-size: 2rem;
+    }
+
+    .reasons p {
+        font-size: 1rem;
+    }
+
+    .reasons-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reasons-item span {
+        margin-bottom: 16px;
+    }
+    
+    .reasons-item h3 {
+        margin-bottom: 16px;
+    }
+}

@@ -36,3 +36,30 @@
 .header-menu a:hover {
     color: var(--p-dark-blue);
 }
+
+.menu-hamburguer {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    padding: 12px;
+}
+
+.menu-hamburguer span {
+    height: 4px;
+    width: 32px;
+    background: var(--p-dark-blue);
+}
+
+@media (max-width: 780px) {
+    .header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav, .header-botao {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        display: flex;
+    }
+}
